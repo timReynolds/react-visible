@@ -2,11 +2,11 @@
   "name": "react-visible",
   "version": "1.0.0",
   "description": "React componenet which controls the visibility of it's children",
-  "main": "lib/react-visible.js",
+  "main": "lib/Visible.js",
   "scripts": {
     "clean": "rimraf lib dist coverage",
     "build": "babel src --out-dir lib --ignore __tests__",
-    "build:umd": "webpack src/react-visible.js lib/react-visible.js && NODE_ENV=production webpack src/index.js lib/react-visible.min.js",
+    "build:umd": "webpack src/Visible.js lib/Visible.js && NODE_ENV=production webpack src/Visible.js lib/Visible.min.js",
     "lint": "eslint src examples",
     "test": "jest",
     "test:watch": "jest --watch",
