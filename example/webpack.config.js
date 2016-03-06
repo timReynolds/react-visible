@@ -19,7 +19,7 @@ module.exports = {
   ],
   resolve: {
     alias: {
-      'library-boilerplate': path.join(__dirname, '..', '..', 'src')
+      'Visible': path.join(__dirname, '..', 'src', 'Visible')
     },
     extensions: ['', '.js']
   },
@@ -32,7 +32,7 @@ module.exports = {
     }, {
       test: /\.js$/,
       loaders: ['babel'],
-      include: path.join(__dirname, '..', '..', 'src')
+      include: path.join(__dirname, '..', 'src')
     }]
   }
 };
