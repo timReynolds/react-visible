@@ -2,7 +2,7 @@ React Visible
 =========================
 
 A React component designed to control if children are rendered, therefore their visibility. Probably the simplest component in the world. 
-
+[![npm version](https://badge.fury.io/js/react-visible.svg)](https://www.npmjs.com/package/react-visible)
 [![Dependency Status](https://david-dm.org/timreynolds/react-visible.svg)](https://david-dm.org/timreynolds/react-visible)
 [![devDependency Status](https://david-dm.org/timreynolds/react-visible/dev-status.svg)](https://david-dm.org/timreynolds/react-visible#info=devDependencies)
 [![Build Status](https://travis-ci.org/timReynolds/react-visible.svg?branch=master)](https://travis-ci.org/timReynolds/react-visible)
