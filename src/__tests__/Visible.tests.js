@@ -16,7 +16,8 @@ describe('Visible', () => {
 
     // Act
     // Assert
-    expect(wrapper.type()).toBeNull();
+    expect(wrapper.find('noscript').length).toEqual(1);
+    expect(wrapper.length).toEqual(1);
   });
 
   it('when isVisible is true, should render div', () => {

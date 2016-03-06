@@ -1,17 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export default class Visible extends Component {
-  render() {
-    if (!this.props.isVisible) {
-      return null;
-    }
-
-    return (
-      <div>
-        {this.props.children}
-      </div>
-    );
+export default function Visible(props) {
+  if (!props.isVisible) {
+    return (<noscript />);
   }
+
+  return (
+    <div>
+      { props.children }
+    < /div>
+    );
 }
 
 Visible.propTypes = {
