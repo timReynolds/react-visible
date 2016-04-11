@@ -1,4 +1,4 @@
-jest.dontMock('../Visible');
+jest.unmock('../Visible');
 
 import React from 'react';
 import { shallow } from 'enzyme';
@@ -16,8 +16,7 @@ describe('Visible', () => {
 
     // Act
     // Assert
-    expect(wrapper.find('noscript').length).toEqual(1);
-    expect(wrapper.length).toEqual(1);
+    expect(wrapper.nodes[0]).toBeNull();
   });
 
   it('when isVisible is true, should render div', () => {
