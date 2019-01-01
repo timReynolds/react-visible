@@ -6,7 +6,7 @@ export default function Visible(props) {
     return null;
   }
 
-  return <div>{props.children}</div>;
+  return props.children;
 }
 
 Visible.propTypes = {
