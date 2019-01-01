@@ -15,9 +15,9 @@ describe("Visible", () => {
     expect(wrapper.getElements()[0]).toBeNull();
   });
 
-  it("when isVisible is true, should render div", () => {
+  it("when isVisible is true, should render child", () => {
     // Arrange
-    const wrapper = shallow(<Visible isVisible={true}>Hello React!</Visible>);
+    const wrapper = shallow(<Visible isVisible={true}><div>Hello React!</div></Visible>);
 
     // Act
     // Assert
