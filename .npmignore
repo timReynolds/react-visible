@@ -4,3 +4,9 @@ src
 test
 example
 coverage
+.cache
+setupTests.js
+.travis.yml
+.eslintrc
+.eslintignore
+.babelrc
