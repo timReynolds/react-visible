@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "rimraf dist coverage",
     "build": "parcel build src/Visible.js",
-    "lint": "eslint src example",
+    "lint": "eslint src example/index.js",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
