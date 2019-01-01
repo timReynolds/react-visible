@@ -12,7 +12,7 @@ describe("Visible", () => {
 
     // Act
     // Assert
-    expect(wrapper.nodes[0]).toBeNull();
+    expect(wrapper.getElements()[0]).toBeNull();
   });
 
   it("when isVisible is true, should render div", () => {
