@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDom from "react-dom";
-import Visible from "Visible";
+import Visible from "../src/Visible";
 
 ReactDom.render(
   <div>
