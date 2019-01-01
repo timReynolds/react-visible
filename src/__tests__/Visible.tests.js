@@ -17,7 +17,11 @@ describe("Visible", () => {
 
   it("when isVisible is true, should render child", () => {
     // Arrange
-    const wrapper = shallow(<Visible isVisible={true}><div>Hello React!</div></Visible>);
+    const wrapper = shallow(
+      <Visible isVisible={true}>
+        <div>Hello React!</div>
+      </Visible>
+    );
 
     // Act
     // Assert
