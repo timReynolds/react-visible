@@ -1,18 +1,15 @@
-import React from 'react';
+import React from "react";
+import PropTypes from "prop-types";
 
 export default function Visible(props) {
   if (!props.isVisible) {
     return null;
   }
 
-  return (
-    <div>
-      { props.children }
-    < /div>
-    );
+  return props.children;
 }
 
 Visible.propTypes = {
-  isVisible: React.PropTypes.bool.isRequired,
-  children: React.PropTypes.any.isRequired,
+  isVisible: PropTypes.bool.isRequired,
+  children: PropTypes.any.isRequired
 };
