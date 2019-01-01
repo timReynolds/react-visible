@@ -1,6 +1,6 @@
 {
   "name": "react-visible",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "React component which controls the visibility of it's children",
   "main": "dist/Visible.js",
   "scripts": {
