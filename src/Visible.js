@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 export default function Visible(props) {
   if (!props.isVisible) {
@@ -9,6 +10,6 @@ export default function Visible(props) {
 }
 
 Visible.propTypes = {
-  isVisible: React.PropTypes.bool.isRequired,
-  children: React.PropTypes.any.isRequired
+  isVisible: PropTypes.bool.isRequired,
+  children: PropTypes.any.isRequired
 };
