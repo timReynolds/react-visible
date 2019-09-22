@@ -46,7 +46,7 @@
     "react-addons-test-utils": "^15.0.1",
     "react-dom": "^16.7.0",
     "regenerator-runtime": "^0.13.1",
-    "rimraf": "^2.5.0"
+    "rimraf": "^3.0.0"
   },
   "peerDependencies": {
     "react": "^16.0.0",
